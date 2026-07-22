@@ -149,7 +149,7 @@ Los diagramas del modelo de datos se encuentran en [`docs/diagrams/`](docs/diagr
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuusuario/Biblia360.git
+git clone https://github.com/JEOrellano/Biblia360.git
 
 # Abrir en Android Studio
 cd Biblia360
@@ -165,7 +165,7 @@ studio .  # o abre la carpeta desde Android Studio
 
 Biblia360 se encuentra actualmente en **prueba cerrada** en Google Play.
 
-> Enlace a la prueba: _[pendiente de agregar]_
+> Enlace a la prueba: _[https://play.google.com/apps/testing/com.orellano.biblia360]_
 
 ---
 
