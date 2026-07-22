@@ -1,0 +1,159 @@
+package com.orellano.biblia360.daoSQLite.sql.spa;
+
+public final class LoadAmos {
+  public LoadAmos() {}
+  public static final String SQL_PARTE_1 = 
+    "INSERT INTO Versiculo (\n" +
+    "    codLengua_vscl, codVersion_vscl, codLibro_vscl, codCapitulo_vscl, codVersiculo_vscl, encabezado_vscl,\n" +
+    "    contenido_vscl,\n" +
+    "    parrafo_vscl, codLengua_vscl_ltr, codVersion_vscl_ltr, codLectura_vscl_ltr)\n" +
+    "VALUES\n" +
+    "('spa', 'RVR1960', 'Am', 1, 1, 'Juicios contra las naciones vecinas', 'Las palabras de Amós, que fue uno de los pastores de Tecoa, que profetizó acerca de Israel en días de Uzías rey de Judá y en días de Jeroboam hijo de Joás, rey de Israel, dos años antes del terremoto.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 2, NULL, 'Dijo: Jehová rugirá desde Sion, y dará su voz desde Jerusalén, y los campos de los pastores se enlutarán, y se secará la cumbre del Carmelo.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 3, NULL, 'Así ha dicho Jehová: Por tres pecados de Damasco, y por el cuarto, no revocaré su castigo; porque trillaron a Galaad con trillos de hierro.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 4, NULL, 'Prenderé fuego en la casa de Hazael, y consumirá los palacios de Ben-adad.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 5, NULL, 'Y quebraré los cerrojos de Damasco, y destruiré a los moradores del valle de Avén, y los gobernadores de Bet-edén; y el pueblo de Siria será transportado a Kir, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 6, NULL, 'Así ha dicho Jehová: Por tres pecados de Gaza, y por el cuarto, no revocaré su castigo; porque llevó cautivo a todo un pueblo para entregarlo a Edom.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 7, NULL, 'Prenderé fuego en el muro de Gaza, y consumirá sus palacios.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 8, NULL, 'Y destruiré a los moradores de Asdod, y a los gobernadores de Ascalón; y volveré mi mano contra Ecrón, y el resto de los filisteos perecerá, ha dicho Jehová el Señor.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 9, NULL, 'Así ha dicho Jehová: Por tres pecados de Tiro, y por el cuarto, no revocaré su castigo; porque entregaron a todo un pueblo cautivo a Edom, y no se acordaron del pacto de hermanos.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 10, NULL, 'Prenderé fuego en el muro de Tiro, y consumirá sus palacios.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 11, NULL, 'Así ha dicho Jehová: Por tres pecados de Edom, y por el cuarto, no revocaré su castigo; porque persiguió a espada a su hermano, y violó todo afecto natural; y en su furor le ha robado siempre, y perpetuamente ha guardado el rencor.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 12, NULL, 'Prenderé fuego en Temán, y consumirá los palacios de Bosra.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 13, NULL, 'Así ha dicho Jehová: Por tres pecados de los hijos de Amón, y por el cuarto, no revocaré su castigo; porque para ensanchar sus tierras abrieron a las mujeres de Galaad que estaban encintas.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 14, NULL, 'Encenderé fuego en el muro de Rabá, y consumirá sus palacios con estruendo en el día de la batalla, con tempestad en día tempestuoso;', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 1, 15, NULL, 'y su rey irá en cautiverio, él y todos sus príncipes, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 1, NULL, 'Así ha dicho Jehová: Por tres pecados de Moab, y por el cuarto, no revocaré su castigo; porque quemó los huesos del rey de Edom hasta calcinarlos.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 2, NULL, 'Prenderé fuego en Moab, y consumirá los palacios de Queriot; y morirá Moab con tumulto, con estrépito y sonido de trompeta.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 3, NULL, 'Y quitaré el juez de en medio de él, y mataré con él a todos sus príncipes, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 4, NULL, 'Así ha dicho Jehová: Por tres pecados de Judá, y por el cuarto, no revocaré su castigo; porque menospreciaron la ley de Jehová, y no guardaron sus ordenanzas, y les hicieron errar sus mentiras, en pos de las cuales anduvieron sus padres.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 5, NULL, 'Prenderé, por tanto, fuego en Judá, el cual consumirá los palacios de Jerusalén.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 6, 'Juicio contra Israel', 'Así ha dicho Jehová: Por tres pecados de Israel, y por el cuarto, no revocaré su castigo; porque vendieron por dinero al justo, y al pobre por un par de zapatos.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 7, NULL, 'Pisotean en el polvo de la tierra las cabezas de los desvalidos, y tuercen el camino de los humildes; y el hijo y su padre se llegan a la misma joven, profanando mi santo nombre.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 8, NULL, 'Sobre las ropas empeñadas se acuestan junto a cualquier altar; y el vino de los multados beben en la casa de sus dioses.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 9, NULL, 'Yo destruí delante de ellos al amorreo, cuya altura era como la altura de los cedros, y fuerte como una encina; y destruí su fruto arriba y sus raíces abajo.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 10, NULL, 'Y a vosotros os hice subir de la tierra de Egipto, y os conduje por el desierto cuarenta años, para que entraseis en posesión de la tierra del amorreo.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 11, NULL, 'Y levanté de vuestros hijos para profetas, y de vuestros jóvenes para que fuesen nazareos. ¿No es esto así, dice Jehová, hijos de Israel?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 12, NULL, 'Mas vosotros disteis de beber vino a los nazareos, y a los profetas mandasteis diciendo: No profeticéis.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 13, NULL, 'Pues he aquí, yo os apretaré en vuestro lugar, como se aprieta el carro lleno de gavillas;', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 14, NULL, 'y el ligero no podrá huir, y al fuerte no le ayudará su fuerza, ni el valiente librará su vida.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 15, NULL, 'El que maneja el arco no resistirá, ni escapará el ligero de pies, ni el que cabalga en caballo salvará su vida.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 2, 16, NULL, 'El esforzado de entre los valientes huirá desnudo aquel día, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 1, 'El rugido del león', 'Oíd esta palabra que ha hablado Jehová contra vosotros, hijos de Israel, contra toda la familia que hice subir de la tierra de Egipto. Dice así:', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 2, NULL, 'A vosotros solamente he conocido de todas las familias de la tierra; por tanto, os castigaré por todas vuestras maldades.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 3, NULL, '¿Andarán dos juntos, si no estuvieren de acuerdo?', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 4, NULL, '¿Rugirá el león en la selva sin haber presa? ¿Dará el leoncillo su rugido desde su guarida, si no apresare?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 5, NULL, '¿Caerá el ave en lazo sobre la tierra, sin haber cazador? ¿Se levantará el lazo de la tierra, si no ha atrapado algo?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 6, NULL, '¿Se tocará la trompeta en la ciudad, y no se alborotará el pueblo? ¿Habrá algún mal en la ciudad, el cual Jehová no haya hecho?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 7, NULL, 'Porque no hará nada Jehová el Señor, sin que revele su secreto a sus siervos los profetas.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 8, NULL, 'Si el león ruge, ¿quién no temerá? Si habla Jehová el Señor, ¿quién no profetizará?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 9, 'Destrucción de Samaria', 'Proclamad en los palacios de Asdod, y en los palacios de la tierra de Egipto, y decid: Reuníos sobre los montes de Samaria, y ved las muchas opresiones en medio de ella, y las violencias cometidas en su medio.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 10, NULL, 'No saben hacer lo recto, dice Jehová, atesorando rapiña y despojo en sus palacios.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 11, NULL, 'Por tanto, Jehová el Señor ha dicho así: Un enemigo vendrá por todos lados de la tierra, y derribará tu fortaleza, y tus palacios serán saqueados.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 12, NULL, 'Así ha dicho Jehová: De la manera que el pastor libra de la boca del león dos piernas, o la punta de una oreja, así escaparán los hijos de Israel que moran en Samaria en el rincón de una cama, y al lado de un lecho.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 13, NULL, 'Oíd y testificad contra la casa de Jacob, ha dicho Jehová Dios de los ejércitos:', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 14, NULL, 'Que el día que castigue las rebeliones de Israel, castigaré también los altares de Bet-el; y serán cortados los cuernos del altar, y caerán a tierra.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 3, 15, NULL, 'Y heriré la casa de invierno con la casa de verano, y las casas de marfil perecerán; y muchas casas serán arruinadas, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 1, NULL, 'Oíd esta palabra, vacas de Basán, que estáis en el monte de Samaria, que oprimís a los pobres y quebrantáis a los menesterosos, que decís a vuestros señores: Traed, y beberemos.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 2, NULL, 'Jehová el Señor juró por su santidad: He aquí, vienen sobre vosotras días en que os llevarán con ganchos, y a vuestros descendientes con anzuelos de pescador;', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 3, NULL, 'y saldréis por las brechas una tras otra, y seréis echadas del palacio, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 4, 'Aunque castigado, Israel no aprende', 'Id a Bet-el, y prevaricad; aumentad en Gilgal la rebelión, y traed de mañana vuestros sacrificios, y vuestros diezmos cada tres días.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 5, NULL, 'Y ofreced sacrificio de alabanza con pan leudado, y proclamad, publicad ofrendas voluntarias, pues que así lo queréis, hijos de Israel, dice Jehová el Señor.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 6, NULL, 'Os hice estar a diente limpio en todas vuestras ciudades, y hubo falta de pan en todos vuestros pueblos; mas no os volvisteis a mí, dice Jehová.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 7, NULL, 'También os detuve la lluvia tres meses antes de la siega; e hice llover sobre una ciudad, y sobre otra ciudad no hice llover; sobre una parte llovió, y la parte sobre la cual no llovió, se secó.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 8, NULL, 'Y venían dos o tres ciudades a una ciudad para beber agua, y no se saciaban; con todo, no os volvisteis a mí, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 9, NULL, 'Os herí con viento solano y con oruga; la langosta devoró vuestros muchos huertos y vuestras viñas, y vuestros higuerales y vuestros olivares; pero nunca os volvisteis a mí, dice Jehová.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 10, NULL, 'Envié contra vosotros mortandad tal como en Egipto; maté a espada a vuestros jóvenes, con cautiverio de vuestros caballos, e hice subir el hedor de vuestros campamentos hasta vuestras narices; mas no os volvisteis a mí, dice Jehová.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 11, NULL, 'Os trastorné como cuando Dios trastornó a Sodoma y a Gomorra, y fuisteis como tizón escapado del fuego; mas no os volvisteis a mí, dice Jehová.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 12, NULL, 'Por tanto, de esta manera te haré a ti, oh Israel; y porque te he de hacer esto, prepárate para venir al encuentro de tu Dios, oh Israel.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 4, 13, NULL, 'Porque he aquí, el que forma los montes, y crea el viento, y anuncia al hombre su pensamiento; el que hace de las tinieblas mañana, y pasa sobre las alturas de la tierra; Jehová Dios de los ejércitos es su nombre.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 1, 'Llamamiento al arrepentimiento', 'Oíd esta palabra que yo levanto para lamentación sobre vosotros, casa de Israel.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 2, NULL, 'Cayó la virgen de Israel, y no podrá levantarse ya más; fue dejada sobre su tierra, no hay quien la levante.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 3, NULL, 'Porque así ha dicho Jehová el Señor: La ciudad que salga con mil, volverá con ciento, y la que salga con ciento volverá con diez, en la casa de Israel.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 4, NULL, 'Pero así dice Jehová a la casa de Israel: Buscadme, y viviréis;', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 5, NULL, 'y no busquéis a Bet-el, ni entréis en Gilgal, ni paséis a Beerseba; porque Gilgal será llevada en cautiverio, y Bet-el será deshecha.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 6, NULL, 'Buscad a Jehová, y vivid; no sea que acometa como fuego a la casa de José y la consuma, sin haber en Bet-el quien lo apague.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 7, NULL, 'Los que convertís en ajenjo el juicio, y la justicia la echáis por tierra,', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 8, NULL, 'buscad al que hace las Pléyades y el Orión, y vuelve las tinieblas en mañana, y hace oscurecer el día como noche; el que llama a las aguas del mar, y las derrama sobre la faz de la tierra; Jehová es su nombre;', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 9, NULL, 'que da esfuerzo al despojador sobre el fuerte, y hace que el despojador venga sobre la fortaleza.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 10, NULL, 'Ellos aborrecieron al reprensor en la puerta de la ciudad, y al que hablaba lo recto abominaron.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 11, NULL, 'Por tanto, puesto que vejáis al pobre y recibís de él carga de trigo, edificasteis casas de piedra labrada, mas no las habitaréis; plantasteis hermosas viñas, mas no beberéis el vino de ellas.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 12, NULL, 'Porque yo sé de vuestras muchas rebeliones, y de vuestros grandes pecados; sé que afligís al justo, y recibís cohecho, y en los tribunales hacéis perder su causa a los pobres.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 13, NULL, 'Por tanto, el prudente en tal tiempo calla, porque el tiempo es malo.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 14, NULL, 'Buscad lo bueno, y no lo malo, para que viváis; porque así Jehová Dios de los ejércitos estará con vosotros, como decís.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 15, NULL, 'Aborreced el mal, y amad el bien, y estableced la justicia en juicio; quizá Jehová Dios de los ejércitos tendrá piedad del remanente de José.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 16, NULL, 'Por tanto, así ha dicho Jehová, Dios de los ejércitos: En todas las plazas habrá llanto, y en todas las calles dirán: ¡Ay! ¡Ay!, y al labrador llamarán a lloro, y a endecha a los que sepan endechar.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 17, NULL, 'Y en todas las viñas habrá llanto; porque pasaré en medio de ti, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 18, NULL, '¡Ay de los que desean el día de Jehová! ¿Para qué queréis este día de Jehová? Será de tinieblas, y no de luz;', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 19, NULL, 'como el que huye de delante del león, y se encuentra con el oso; o como si entrare en casa y apoyare su mano en la pared, y le muerde una culebra.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 20, NULL, '¿No será el día de Jehová tinieblas, y no luz; oscuridad, que no tiene resplandor?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 21, NULL, 'Aborrecí, abominé vuestras solemnidades, y no me complaceré en vuestras asambleas.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 22, NULL, 'Y si me ofreciereis vuestros holocaustos y vuestras ofrendas, no los recibiré, ni miraré a las ofrendas de paz de vuestros animales engordados.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 23, NULL, 'Quita de mí la multitud de tus cantares, pues no escucharé las salmodias de tus instrumentos.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 24, NULL, 'Pero corra el juicio como las aguas, y la justicia como impetuoso arroyo.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 25, NULL, '¿Me ofrecisteis sacrificios y ofrendas en el desierto en cuarenta años, oh casa de Israel?', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 26, NULL, 'Antes bien, llevabais el tabernáculo de vuestro Moloc y Quiún, ídolos vuestros, la estrella de vuestros dioses que os hicisteis.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 5, 27, NULL, 'Os haré, pues, transportar más allá de Damasco, ha dicho Jehová, cuyo nombre es Dios de los ejércitos.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 1, 'Destrucción de Israel', '¡Ay de los reposados en Sion, y de los confiados en el monte de Samaria, los notables y principales entre las naciones, a los cuales acude la casa de Israel!', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 2, NULL, 'Pasad a Calne, y mirad; y de allí id a la gran Hamat; descended luego a Gat de los filisteos; ved si son aquellos reinos mejores que estos reinos, si su extensión es mayor que la vuestra,', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 3, NULL, 'oh vosotros que dilatáis el día malo, y acercáis la silla de iniquidad.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 4, NULL, 'Duermen en camas de marfil, y reposan sobre sus lechos; y comen los corderos del rebaño, y los novillos de en medio del engordadero;', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 5, NULL, 'gorjean al son de la flauta, e inventan instrumentos musicales, como David;', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 6, NULL, 'beben vino en tazones, y se ungen con los ungüentos más preciosos; y no se afligen por el quebrantamiento de José.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 7, NULL, 'Por tanto, ahora irán a la cabeza de los que van a cautividad, y se acercará el duelo de los que se entregan a los placeres.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 8, NULL, 'Jehová el Señor juró por sí mismo, Jehová Dios de los ejércitos ha dicho: Abomino la grandeza de Jacob, y aborrezco sus palacios; y entregaré al enemigo la ciudad y cuanto hay en ella.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 9, NULL, 'Y acontecerá que si diez hombres quedaren en una casa, morirán.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 10, NULL, 'Y un pariente tomará a cada uno, y lo quemará para sacar los huesos de casa; y dirá al que estará en los rincones de la casa: ¿Hay aún alguno contigo? Y dirá: No. Y dirá aquel: Calla, porque no podemos mencionar el nombre de Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 11, NULL, 'Porque he aquí, Jehová mandará, y herirá con hendiduras la casa mayor, y la casa menor con aberturas.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 12, NULL, '¿Correrán los caballos por las peñas? ¿Ararán en ellas con bueyes? ¿Por qué habéis vosotros convertido el juicio en veneno, y el fruto de justicia en ajenjo?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 13, NULL, 'Vosotros que os alegráis en nada, que decís: ¿No hemos adquirido poder con nuestra fuerza?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 6, 14, NULL, 'Pues he aquí, oh casa de Israel, dice Jehová Dios de los ejércitos, levantaré yo sobre vosotros a una nación que os oprimirá desde la entrada de Hamat hasta el arroyo del Arabá.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 1, 'Tres visiones de destrucción', 'Así me ha mostrado Jehová el Señor: He aquí, él criaba langostas cuando comenzaba a crecer el heno tardío; y he aquí era el heno tardío después de las siegas del rey.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 2, NULL, 'Y aconteció que cuando acabó de comer la hierba de la tierra, yo dije: Señor Jehová, perdona ahora; ¿quién levantará a Jacob? porque es pequeño.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 3, NULL, 'Se arrepintió Jehová de esto: No será, dijo Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 4, NULL, 'Jehová el Señor me mostró así: He aquí, Jehová el Señor llamaba para juzgar con fuego; y consumió un gran abismo, y consumió una parte de la tierra.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 5, NULL, 'Y dije: Señor Jehová, cesa ahora; ¿quién levantará a Jacob? porque es pequeño.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 6, NULL, 'Se arrepintió Jehová de esto: No será esto tampoco, dijo Jehová el Señor.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 7, NULL, 'Me enseñó así: He aquí el Señor estaba sobre un muro hecho a plomo, y en su mano una plomada de albañil.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 8, NULL, 'Jehová entonces me dijo: ¿Qué ves, Amós? Y dije: Una plomada de albañil. Y el Señor dijo: He aquí, yo pongo plomada de albañil en medio de mi pueblo Israel; no lo toleraré más.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 9, NULL, 'Los lugares altos de Isaac serán destruidos, y los santuarios de Israel serán asolados, y me levantaré con espada sobre la casa de Jeroboam.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 10, 'Amós y Amasías', 'Entonces el sacerdote Amasías de Bet-el envió a decir a Jeroboam rey de Israel: Amós se ha levantado contra ti en medio de la casa de Israel; la tierra no puede sufrir todas sus palabras.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 11, NULL, 'Porque así ha dicho Amós: Jeroboam morirá a espada, e Israel será llevado de su tierra en cautiverio.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 12, NULL, 'Y Amasías dijo a Amós: Vidente, vete, huye a tierra de Judá, y come allá tu pan, y profetiza allá;', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 13, NULL, 'y no profetices más en Bet-el, porque es santuario del rey, y capital del reino.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 14, NULL, 'Entonces respondió Amós, y dijo a Amasías: No soy profeta, ni soy hijo de profeta, sino que soy boyero, y recojo higos silvestres.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 15, NULL, 'Y Jehová me tomó de detrás del ganado, y me dijo: Ve y profetiza a mi pueblo Israel.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 16, NULL, 'Ahora, pues, oye palabra de Jehová. Tú dices: No profetices contra Israel, ni hables contra la casa de Isaac.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 7, 17, NULL, 'Por tanto, así ha dicho Jehová: Tu mujer será ramera en medio de la ciudad, y tus hijos y tus hijas caerán a espada, y tu tierra será repartida por suertes; y tú morirás en tierra inmunda, e Israel será llevado cautivo lejos de su tierra.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 1, 'El canastillo de fruta de verano', 'Así me ha mostrado Jehová el Señor: He aquí un canastillo de fruta de verano.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 2, NULL, 'Y dijo: ¿Qué ves, Amós? Y respondí: Un canastillo de fruta de verano. Y me dijo Jehová: Ha venido el fin sobre mi pueblo Israel; no lo toleraré más.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 3, NULL, 'Y los cantores del templo gemirán en aquel día, dice Jehová el Señor; muchos serán los cuerpos muertos; en todo lugar los echarán fuera en silencio.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 4, 'El juicio sobre Israel se acerca', 'Oíd esto, los que explotáis a los menesterosos, y arruináis a los pobres de la tierra,', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 5, NULL, 'diciendo: ¿Cuándo pasará el mes, y venderemos el trigo; y la semana, y abriremos los graneros del pan, y achicaremos la medida, y subiremos el precio, y falsearemos con engaño la balanza,', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 6, NULL, 'para comprar los pobres por dinero, y los necesitados por un par de zapatos, y venderemos los desechos del trigo?', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 7, NULL, 'Jehová juró por la gloria de Jacob: No me olvidaré jamás de todas sus obras.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 8, NULL, '¿No se estremecerá la tierra sobre esto? ¿No llorará todo habitante de ella? Subirá toda, como un río, y crecerá y mermará como el río de Egipto.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 9, NULL, 'Acontecerá en aquel día, dice Jehová el Señor, que haré que se ponga el sol a mediodía, y cubriré de tinieblas la tierra en el día claro.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 10, NULL, 'Y cambiaré vuestras fiestas en lloro, y todos vuestros cantares en lamentaciones; y haré poner cilicio sobre todo lomo, y que se rape toda cabeza; y la volveré como en llanto de unigénito, y su postrimería como día amargo.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 11, NULL, 'He aquí vienen días, dice Jehová el Señor, en los cuales enviaré hambre a la tierra, no hambre de pan, ni sed de agua, sino de oír la palabra de Jehová.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 12, NULL, 'E irán errantes de mar a mar; desde el norte hasta el oriente discurrirán buscando palabra de Jehová, y no la hallarán.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 13, NULL, 'En aquel tiempo las doncellas hermosas y los jóvenes desmayarán de sed.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 8, 14, NULL, 'Los que juran por el pecado de Samaria, y dicen: Por tu Dios, oh Dan, y: Por el camino de Beerseba, caerán, y nunca más se levantarán.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 1, 'Los juicios de Jehová son ineludibles', 'Vi al Señor que estaba sobre el altar, y dijo: Derriba el capitel, y estremézcanse las puertas, y hazlos pedazos sobre la cabeza de todos; y al postrero de ellos mataré a espada; no habrá de ellos quien huya, ni quien escape.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 2, NULL, 'Aunque cavasen hasta el Seol, de allá los tomará mi mano; y aunque subieren hasta el cielo, de allá los haré descender.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 3, NULL, 'Si se escondieren en la cumbre del Carmelo, allí los buscaré y los tomaré; y aunque se escondieren de delante de mis ojos en lo profundo del mar, allí mandaré a la serpiente y los morderá.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 4, NULL, 'Y si fueren en cautiverio delante de sus enemigos, allí mandaré la espada, y los matará; y pondré sobre ellos mis ojos para mal, y no para bien.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 5, NULL, 'El Señor, Jehová de los ejércitos, es el que toca la tierra, y se derretirá, y llorarán todos los que en ella moran; y crecerá toda como un río, y mermará luego como el río de Egipto.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 6, NULL, 'Él edificó en el cielo sus cámaras, y ha establecido su expansión sobre la tierra; él llama las aguas del mar, y sobre la faz de la tierra las derrama; Jehová es su nombre.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 7, NULL, 'Hijos de Israel, ¿no me sois vosotros como hijos de etíopes, dice Jehová? ¿No hice yo subir a Israel de la tierra de Egipto, y a los filisteos de Caftor, y de Kir a los arameos?', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 8, NULL, 'He aquí los ojos de Jehová el Señor están contra el reino pecador, y yo lo asolaré de la faz de la tierra; mas no destruiré del todo la casa de Jacob, dice Jehová.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 9, NULL, 'Porque he aquí yo mandaré y haré que la casa de Israel sea zarandeada entre todas las naciones, como se zarandea el grano en una criba, y no cae un granito en la tierra.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 10, NULL, 'A espada morirán todos los pecadores de mi pueblo, que dicen: No se acercará, ni nos alcanzará el mal.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 11, 'Restauración futura de Israel', 'En aquel día yo levantaré el tabernáculo caído de David, y cerraré sus portillos y levantaré sus ruinas, y lo edificaré como en el tiempo pasado;', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 12, NULL, 'para que aquellos sobre los cuales es invocado mi nombre posean el resto de Edom, y a todas las naciones, dice Jehová que hace esto.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 13, NULL, 'He aquí vienen días, dice Jehová, en que el que ara alcanzará al segador, y el pisador de las uvas al que lleve la simiente; y los montes destilarán mosto, y todos los collados se derretirán.', 1, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 14, NULL, 'Y traeré del cautiverio a mi pueblo Israel, y edificarán ellos las ciudades asoladas, y las habitarán; plantarán viñas, y beberán el vino de ellas, y harán huertos, y comerán el fruto de ellos.', 0, 'spa', 'RVR1960', NULL),\n" +
+    "('spa', 'RVR1960', 'Am', 9, 15, NULL, 'Pues los plantaré sobre su tierra, y nunca más serán arrancados de su tierra que yo les di, ha dicho Jehová Dios tuyo.', 0, 'spa', 'RVR1960', NULL);\n"
+;
+
+}

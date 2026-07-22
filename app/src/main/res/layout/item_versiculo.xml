@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_versiculo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="20dp">
+
+    <!-- 1. Encabezado (Ej: Nacimiento de Jesucristo) -->
+    <TextView
+        android:id="@+id/tv_verse_header"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nacimiento de Jesucristo"
+        tools:visibility="visible" />
+
+    <!-- 2. Referencia Paralela (Ej: Lc. 2.1-7) -->
+    <TextView
+        android:id="@+id/tv_parallel_ref"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_verse_header"
+        tools:text="(Lc. 2.1-7)"
+        tools:visibility="visible" />
+
+    <!-- 3. Contenedor de Cuerpo (Para manejar el flujo de párrafo) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_verse_body_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_parallel_ref">
+
+        <!-- Número de Versículo (Pequeño y Gris) -->
+        <TextView
+            android:id="@+id/tv_verse_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:textColor="#BDBDBD"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_verse_body"
+            android:layout_marginTop="4dp"
+            tools:text="18" />
+
+        <!-- Cuerpo del Texto -->
+        <TextView
+            android:id="@+id/tv_verse_body"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6sp"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@id/iv_cross_ref_icon"
+            app:layout_constraintStart_toEndOf="@id/tv_verse_number"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="El nacimiento de Jesucristo fue así: Estando desposada María su madre con José..." />
+
+        <!-- Icono de Referencia Cruzada (El de la hojita/popup) -->
+        <ImageView
+            android:id="@+id/iv_cross_ref_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_reference_note_24"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/tv_verse_body"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_verse_body"
+            app:layout_constraintVertical_bias="0"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
