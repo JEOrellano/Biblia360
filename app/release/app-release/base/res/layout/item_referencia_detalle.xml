@@ -1,52 +1,0 @@
-
-ÿ
-;
-android*http://schemas.android.com/apk/res/android
-$LinearLayout"
-*http://schemas.android.com/apk/res/android
-background?attr/selectableItemBackground"
-(Ô„2+
-)½ˆŒøattr/selectableItemBackground0"L
-*http://schemas.android.com/apk/res/android	clickabletrue"
-(å„2:@"S
-*http://schemas.android.com/apk/res/androidpaddingVertical16dp"
-(¾Š„2:h "N
-*http://schemas.android.com/apk/res/android
-paddingTop16dp"
-(×„2:h "Q
-*http://schemas.android.com/apk/res/androidpaddingBottom16dp"
-(Ù„2:h "`
-*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"
-(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
-*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"
-(õ„2:0şÿÿÿÿÿÿÿÿ"R
-*http://schemas.android.com/apk/res/androidorientationvertical"
-(Ä„2:0"U
-*http://schemas.android.com/apk/res/androidpaddingHorizontal24dp"
-(½Š„2:h0"O
-*http://schemas.android.com/apk/res/androidpaddingLeft24dp"
-(Ö„2:h0"P
-*http://schemas.android.com/apk/res/androidpaddingRight24dp"
-(Ø„2:h0"L
-*http://schemas.android.com/apk/res/android	focusabletrue"
-(Ú„2:@*û
-òTextView"`
-*http://schemas.android.com/apk/res/androidlayout_widthwrap_content"(ô„2:0şÿÿÿÿÿÿÿÿ"a
-*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"(õ„2:0şÿÿÿÿÿÿÿÿ"L
-*http://schemas.android.com/apk/res/androidtextSize14sp"(•„2:h‚"S
-*http://schemas.android.com/apk/res/android	textColor#2196F3"(˜„2:Pó­†ù"i
-*http://schemas.android.com/apk/res/androidid@+id/tv_ref_label"(Ğ„2
-®„ øid/tv_ref_label0"L
-*http://schemas.android.com/apk/res/android	textStylebold"(—„2:8"E
-*http://schemas.android.com/apk/res/androidtextGÃ©nesis 1:1(Ï‚„&*û
-òTextView"`
-*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
-*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"(õ„2:0şÿÿÿÿÿÿÿÿ"L
-*http://schemas.android.com/apk/res/androidtextSize16sp"(•„2:h‚ "S
-*http://schemas.android.com/apk/res/android	textColor#424242"(˜„2:PÂ„‰ú"S
-*http://schemas.android.com/apk/res/androidlayout_marginTop6dp"(ø„2:h"S
-*http://schemas.android.com/apk/res/androidlineSpacingExtra4sp"(—„„2:h‚"g
-*http://schemas.android.com/apk/res/androidid@+id/tv_ref_text"(Ğ„2
-¯„ øid/tv_ref_text0"k
-*http://schemas.android.com/apk/res/androidtext2En el principio creÃ³ Dios los cielos y la tierra.(Ï‚„L
-$
