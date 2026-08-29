@@ -79,7 +79,7 @@ import com.orellano.biblia360.daoSQLite.sql.spa.LoadZacarias;
 
 public class ConectSQLiteHelperDB extends SQLiteOpenHelper {
   public static final String DATABASE_NAME = "database_biblia360.db";
-  public static final int DATABASE_VERSION = 4;
+  public static final int DATABASE_VERSION = 5;
 
   // --- CONSTANTES DE TABLAS Y COLUMNAS ---
 
@@ -1137,8 +1137,12 @@ public class ConectSQLiteHelperDB extends SQLiteOpenHelper {
     //db.execSQL(ACTUALIZAR_VERSICULO_CON_LECTURA);
     actualizarVersiculosConLectura(db);
     // v3 → v4-vn: actualizar id video dia 1 - dia n en caso de instalacion de cero
-    db.execSQL("UPDATE Lectura SET iframe_ltr = 'Rgkd0kIJJUg'" +
+    db.execSQL("UPDATE Lectura SET iframe_ltr = 'xQW6mKT6aYo'" +
         "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 1");
+    db.execSQL("UPDATE Lectura SET iframe_ltr = 'kFND3sYcbTY'" +
+        "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 2");
+    db.execSQL("UPDATE Lectura SET iframe_ltr = 'zDN34_HEleU'" +
+        "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 3");
     db.execSQL(LOAD_TABLE_TIPO_REF);
     db.execSQL(LoadReferencia.SQL_PARTE_1);
     db.execSQL(LoadReferencia.SQL_PARTE_2);
@@ -1198,6 +1202,15 @@ public class ConectSQLiteHelperDB extends SQLiteOpenHelper {
       // v3 → v4: actualizar id video dia 1
       db.execSQL("UPDATE Lectura SET iframe_ltr = 'Rgkd0kIJJUg'" +
           "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 1");
+    }
+    if (oldVersion < 5) {
+      // v4 → v5: actualizar id video dia 1, 2 y 3
+      db.execSQL("UPDATE Lectura SET iframe_ltr = 'xQW6mKT6aYo'" +
+          "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 1");
+      db.execSQL("UPDATE Lectura SET iframe_ltr = 'kFND3sYcbTY'" +
+          "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 2");
+      db.execSQL("UPDATE Lectura SET iframe_ltr = 'zDN34_HEleU'" +
+          "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 3");
     }
   }
 }
