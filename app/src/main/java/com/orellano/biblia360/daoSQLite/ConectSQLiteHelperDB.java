@@ -79,7 +79,7 @@ import com.orellano.biblia360.daoSQLite.sql.spa.LoadZacarias;
 
 public class ConectSQLiteHelperDB extends SQLiteOpenHelper {
   public static final String DATABASE_NAME = "database_biblia360.db";
-  public static final int DATABASE_VERSION = 5;
+  public static final int DATABASE_VERSION = 6;
 
   // --- CONSTANTES DE TABLAS Y COLUMNAS ---
 
@@ -1143,6 +1143,8 @@ public class ConectSQLiteHelperDB extends SQLiteOpenHelper {
         "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 2");
     db.execSQL("UPDATE Lectura SET iframe_ltr = 'zDN34_HEleU'" +
         "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 3");
+    db.execSQL("UPDATE Lectura SET iframe_ltr = 'U8khtsYLLGU'" +
+        "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 4");
     db.execSQL(LOAD_TABLE_TIPO_REF);
     db.execSQL(LoadReferencia.SQL_PARTE_1);
     db.execSQL(LoadReferencia.SQL_PARTE_2);
@@ -1211,6 +1213,10 @@ public class ConectSQLiteHelperDB extends SQLiteOpenHelper {
           "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 2");
       db.execSQL("UPDATE Lectura SET iframe_ltr = 'zDN34_HEleU'" +
           "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 3");
+    }
+    if (oldVersion < 6) {
+      db.execSQL("UPDATE Lectura SET iframe_ltr = 'U8khtsYLLGU'" +
+          "WHERE codLengua_ltr = 'spa' AND codVersion_ltr = 'RVR1960' AND codLectura_ltr = 4");
     }
   }
 }
