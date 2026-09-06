@@ -2,7 +2,7 @@
   <h1>Biblia360</h1>
   <p><strong>Lee la Biblia en un año — con videos, narración y seguimiento de progreso</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/versión-1.4-blue.svg" alt="Versión">
+    <img src="https://img.shields.io/badge/versión-1.5-blue.svg" alt="Versión">
     <img src="https://img.shields.io/badge/minSdk-24-brightgreen.svg" alt="minSdk">
     <img src="https://img.shields.io/badge/targetSdk-36-brightgreen.svg" alt="targetSdk">
     <img src="https://img.shields.io/badge/licencia-MIT-green.svg" alt="Licencia">
